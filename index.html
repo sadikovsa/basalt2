@@ -21,36 +21,34 @@
 <body>
 
 <header class="header" data-aos="fade">
-        <div class="header__content">
-            <a href="./" class="header__logo">
-                <img src="./images/logo.png" alt="logo" class="logo-white">
-                <img src="./images/logo-black.png" alt="logo" class="logo-black">
-            </a>
-            <nav class="header__nav">
-                <ul class="header__menu">
-                    <li><a href="./" class="active">Главная</a></li>
-                    <li><a href="./about.html">О Нас</a></li>
-                    <li><a href="./catalog.html">Продукция</a></li>
-                    <li><a href="./news.html">Новости</a></li>
-                    <li><a href="./contacts.html">Контакты</a></li>
-                </ul>
-            </nav>
-            <span></span>
-            <div class="burger mobile">
-                <input type="checkbox" id="burgerBtn" class="burger-checkbox">
-                <label for="burgerBtn">
-                    <div class="hamburger">
-                        <span class="bar bar1"></span>
-                        <span class="bar bar2"></span>
-                        <span class="bar bar3"></span>
-                        <span class="bar bar4"></span>
-                    </div>
-                </label>
-            </div>
+    <a href="./" class="header__logo">
+        <img src="./images/logo.png" alt="logo" class="logo-white">
+        <img src="./images/logo-black.png" alt="logo" class="logo-black">
+    </a>
 
+    <div class="container">
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li><a href="./" class="active">Главная</a></li>
+                <li><a href="./about.html">О Нас</a></li>
+                <li><a href="./catalog.html">Продукция</a></li>
+                <li><a href="./news.html">Новости</a></li>
+                <li><a href="./contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="burger mobile">
+            <input type="checkbox" id="burgerBtn" class="burger-checkbox">
+            <label for="burgerBtn">
+                <div class="hamburger">
+                    <span class="bar bar1"></span>
+                    <span class="bar bar2"></span>
+                    <span class="bar bar3"></span>
+                    <span class="bar bar4"></span>
+                </div>
+            </label>
         </div>
+    </div>
 </header>
-
 <main class="main">
   <section class="hero" id="hero">
     <div class="hero__slider" >
@@ -160,9 +158,7 @@
   <section class="feat">
     <div class="container">
         <div class="feat__wrapper">
-            <h2 class="feat__number" style="background-image: url('./images/feat-bg.jpg');" data-aos="fade-right">
-                <span>8</span>
-            </h2>
+            <h2 class="feat__number" data-aos="fade-right">8</h2>
             <p class="feat__text" data-aos="fade-left">лет успешной работы на рынке</p>
         </div>
     </div>
@@ -233,7 +229,7 @@
                 </button>
             </div>
         </div>
-        <a href="#" class="catalog__download">Скачать каталог</a>
+        <a href="#" class="catalog__download" data-aos="fade-up">Скачать каталог</a>
     </div>
 </section>
 </main>
